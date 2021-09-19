@@ -1,0 +1,19 @@
+
+初始化仓库
+git init
+
+将文件提交至暂存区
+git add <文件名>
+
+将文件提交至仓库
+git commit -m "本次提交说明" "文件名"
+
+查看当前仓库状态
+git status
+
+查看历史提交记录
+git --online   #以一行的方式展示
+git reflog    #显示head信息，一般采用这种
+
+回退版本
+git reset --hard <版本id，一个16进制数>
