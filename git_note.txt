@@ -17,4 +17,5 @@ git log --oneline  #以一行的方式展示版本信息
 git reflog    #显示head信息，一般采用这种
 
 回退版本
+hard 参数表示的是，仓库中的代码和暂存区和工作区中的代码都回到指定版本
 git reset --hard <版本id，一个16进制数>
