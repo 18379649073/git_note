@@ -13,6 +13,7 @@ git status
 
 查看历史提交记录
 git log   #展示所有版本的详细信息
+git log --oneline  #以一行的方式展示版本信息
 git reflog    #显示head信息，一般采用这种
 
 回退版本
