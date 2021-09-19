@@ -70,3 +70,10 @@ git clone <远程库的地址>
 2、将远程仓库的内容完全克隆岛本地
 3、替我们创建远程库的别名
 
+拉取操作
+拉去操作 pull ，相当于 fetch + merge 操作
+git fetch <别名或者地址> <分子名>
+抓取操作，只是将远程库的内容抓取到本地库，但是工作区中的文件并未更新，还是原来的内容
+git merge <远程库名称,例如 git_note/master>
+git pull <别名或地址> <分支名称>
+可以用pull 代替 fetch + merge 操作
